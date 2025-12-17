@@ -26,3 +26,14 @@ class Choice(models.Model):
 
     def __str__(self):
         return self.choice_text
+
+
+class Categoria(models.Model):
+    # Aquí usa 4 espacios
+    Abr = models.CharField(max_length=4)
+    Nombre = models.CharField(max_length=50)
+
+    # Aquí usa 4 espacios
+    def __str__(self):
+        # Aquí usa 8 espacios
+        return self.Abr + " - " + self.Nombre
