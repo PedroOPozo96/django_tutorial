@@ -124,4 +124,4 @@ DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 
 import os
 
-STATIC_ROOT = '/home/pedro/django_tutorial'
+STATIC_ROOT = '/home/pedro/django_tutorial/static'
